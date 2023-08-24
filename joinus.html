@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="ko">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+  <title>이마트24</title>
+  <link rel="stylesheet" href="joinus.css">
+  <style type="text/css"></style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+
+<header>
+
+  <div class="flex_btw">
+    <a href="index.html"><img src="images/logo.png"></a>
+
+
+    <nav id="pc_nav">
+      <ul>
+        <li><a href="brand.html">브랜드</a></li>
+        <li><a href="product.html">상품</a></li>
+        <li><a href="notice.html">새소식</a></li>
+
+        <li><a href="faq.html">자주하는 질문</a></li>
+        <li><a href="qna.html">문의하기</a></li>
+
+        <li><a href="login.html">로그인</a></li>
+        <li><a href="joinus.html">회원가입</a></li>
+        <li><a href="remove.html">탈퇴하기</a></li>
+
+
+      </ul>
+      </li>
+      </ul>
+    </nav>
+
+
+
+    <div class="navbtns">
+      <a href="login.html">
+        <div class="login"><img src="images/icon_login.png"></div>
+      </a>
+
+
+      <ul class="menu" id="menu">
+        <li class="navigation-container">
+          <div class="navigation-button">
+            <img src="images/icon_cart.png">
+          </div>
+          <div class="navigation-menu">
+
+            <div class="cart">
+              <div>
+                <img src="images/cart_1.jpg">
+                <h3>민생라면</h3>
+                <h4>가성비 끝판왕 라면</h4>
+                <h4 style="color:crimson">3,000원</h4>
+
+                <select>
+                  <option selected>[필수] 개수을 선택해주세요</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+
+              <div>
+                <img src="images/cart_2.png">
+                <h3>뿌링클라면</h3>
+                <h4>bhc 콜라보 제품</h4>
+                <h4 style="color:crimson">2,000원</h4>
+
+                <select>
+                  <option selected>[필수] 개수을 선택해주세요</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+
+
+              <div>
+                <h3>총 구매가</h3>
+                <h3 style="color:crimson">0 원</h3>
+              </div>
+
+              <div>
+                <button>결제하기</button>
+              </div>
+            </div>
+        </li>
+      </ul>
+
+
+
+
+      <span id="navOpen" class="navOpen">
+        <div class="navbtn">
+          <span class="line1"></span>
+          <span class="line1"></span>
+          <span class="line1"></span>
+          <span class="line2"></span>
+        </div>
+      </span>
+    </div>
+
+
+  </div>
+
+  <nav class="nav" id="nav">
+    <a href="#" id="navClose" class="navClose" style="font-size: 1.5rem;">✕</a>
+
+    <div id="Accordion_wrap">
+
+      <div class="que">
+        <div id="open1" class="open1"> <span>모바일 이벤트</span></div>
+
+        <div class="open1-1">
+          <a id="close1" class="close1" style="font-size: 1.5rem;">✕</a>
+          <div>
+            <img src="images/mo_event.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="que">
+        <a href="brand.html"><span>브랜드</span></a>
+      </div>
+
+      <div class="que">
+        <a href="product.html"><span>상품</span></a>
+      </div>
+
+      <div class="que">
+        <a href="notice.html"><span>새소식</span></a>
+      </div>
+
+      <div class="que">
+        <span>문의</span>
+        <div class="arrow-wrap">
+          <span class="arrow-top">↑</span>
+          <span class="arrow-bottom">↓</span>
+        </div>
+
+      </div>
+      <div class="anw">
+        <a href="faq.html"><span>자주하는 질문</span></a>
+        <a href="qna.html"><span>문의하기</span></a>
+      </div>
+
+
+      <div class="que">
+        <span>나의페이지</span>
+        <div class="arrow-wrap">
+          <span class="arrow-top">↑</span>
+          <span class="arrow-bottom">↓</span>
+        </div>
+
+      </div>
+      <div class="anw">
+        <a href="login.html"><span>로그인</span></a>
+        <a href="joinus.html"><span>회원가입</span></a>
+        <a href="remove.html"><span>탈퇴하기</span></a>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+
+<body>
+  <div class="maintext">
+    <h1>회원가입</h1>
+    <p>이마트24에 가입하시고<br>다양한 서비스를 누리세요</p>
+  </div>
+
+  <article class="joinus">
+    <section>
+      <div class="box">
+        <h4>회원정보 입력</h4>
+
+        <div class="padding">
+          <h5 class="essential">아이디</h5>
+
+          <div class="user">
+            <label><input type="text" required placeholder="아이디를 입력해주세요"></label>
+            <button>중복확인</button>
+          </div>
+
+          <h5 class="essential">비밀번호</h5>
+          <label><input type="password" required placeholder="비밀번호를 입력해주세요"></label>
+
+
+          <h5 class="essential">비밀번호 확인</h5>
+          <label><input type="password" required placeholder="비밀번호를 입력해주세요"></label>
+
+          <h5 class="essential">이름</h5>
+          <label><input type="text" required placeholder="비밀번호를 입력해주세요"></label>
+
+          <h5 class="essential">이메일</h5>
+          <label><input type="email" required placeholder="비밀번호를 입력해주세요"></label>
+
+          <h5 class="essential">휴대전화</h5>
+
+          <div class="user">
+            <label><input type="tel" required placeholder="아이디를 입력해주세요"></label>
+            <button>인증번호</button>
+          </div>
+
+          <h5>주소</h5>
+          <div>
+            <label><input type="password" placeholder="비밀번호를 입력해주세요"></label>
+            <img src="images/icon_search2.png">
+          </div>
+
+          <h5>생년월일</h5>
+          <div class="birth">
+            <select name="yy" id="year"></select>
+            <select name="mm" id="month"></select>
+            <select name="dd" id="day"></select>
+          </div>
+
+          <div class="margin">
+            <h5 class="essential">이용약관동의</h5>
+            <div class="check">
+              <label><input type="checkbox">전체 동의하기</label>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="padding2">
+
+          <div class="check">
+            <label><input type="checkbox">CJ ONE 이용약관 동의 <h3 class="gray">(필수)</h3>
+              <h3 class="under-line">약관보기</h3>
+            </label>
+
+          </div>
+          <div class="check">
+            <label><input type="checkbox">개인정보 수집 및 이용 동의 <h3 class="gray">(필수)</h3>
+              <h3 class="under-line">약관보기</h3>
+            </label>
+          </div>
+          <div class="check">
+            <label><input type="checkbox">프로모션 정보 수신 동의 <h3 class="gray">(필수)</h3>
+              <h3 class="under-line">약관보기</h3>
+            </label>
+          </div>
+          <button class="red">가입하기</button>
+        </div>
+      </div>
+    </section>
+  </article>
+
+
+  <article class="agree">
+    <section>
+      <div class="box">
+        <div class="padding2">
+          <h4>이용약관</h4>
+          <textarea>제1조 (목적)
+이 약관은 CJ ENM(전자상거래 사업자, 이하 “회사”라 한다)가 운영하는 사이버 몰인 CJ ONSTYLE(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.
+
+※「PC통신, 모바일, 무선, VoIP, IPTV, 데이터방송, 케이블TV,위성방송, 카달로그 등을 이용하는 전자상거래 및 통신판매에대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다」
+
+제2조 (정의)
+① “몰” 이란 회사가 재화 또는 용역(이하 “재화 등”이라 함)을 이용자에게 제공하기 위하여 컴퓨터 등 정보통신설비를 이용하여 재화 등을 거래할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 사이버몰을 운영하는 사업자의 의미로도 사용합니다.
+② “이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.
+③ ‘회원’이라 함은 “몰”에 개인정보를 제공하여 회원등록을 한 자로서, 계속적으로 “몰”이 제공하는 서비스를 계속적으로 이용할 수 있는 자를 말합니다.
+④ ‘비회원’이라 함은 회원에 가입하지 않고 “몰”이 제공하는 서비스를 이용하는 자를 말합니다.
+
+제3조 (약관등의 명시와 설명 및 개정)
+① “몰”은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호ㆍ모사전송번호ㆍ전자우편주소, 사업자등록번호, 통신판매업신고번호, 개인정보보호책임자 등을 이용자가 쉽게 알 수 있도록 ”몰”의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가 연결화면을 통하여 볼 수 있도록 할 수 있습니다.
+② “몰”은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회ㆍ배송책임ㆍ환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는 팝업화면 등을 제공하여 이용자의 확인을 구하여야 합니다.
+③ “몰”은 전자상거래 등에서의 소비자보호에 관한 법률, 약관의 규제에 관한 법률, 전자문서 및전자거래기본법, 전자금융거래법, 전자서명법, 개인정보 보호법, 방문판매 등에 관한 법률, 소비자기본법 등 관련법을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.
+④ “몰”이 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 몰의 초기화면에 그 적용일자 7일이전부터 적용일자 전일까지 공지합니다. 다만, 이용자에게 불리하게 약관내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예기간을 두고 공지합니다. 이 경우 "몰“은 개정 전 내용과 개정 후 내용을 명확하게 비교하여 이용자가 알기 쉽도록 표시합니다.
+</textarea>
+
+          <h5>위 내용을 숙지했으며 약관에 동의합니다.</h5>
+          <button>동의하기</button>
+          <button class="white">취소</button>
+        </div>
+      </div>
+    </section>
+  </article>
+
+
+
+  <article class="final">
+    <section>
+      <div class="box">
+        <div class="padding2">
+          <h4>가입완료</h4>
+          <p>이마트24 가입을 환영합니다.</p>
+          <hr>
+          <div class="btn-2">
+            <button>홈으로 가기</button>
+            <button class="red">로그인하러 가기</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </article>
+
+
+<footer>
+
+  <ul>
+    <li>개인정보 처리방침</li>
+    <li>이용약관</li>
+    <li>고객센터</li>
+    <li>CSR경영</li>
+    <li>사이트맵</li>
+    <li>패밀리사이트+</li>
+  </ul>
+
+  <div class="flex_btw">
+    <p>(주) 이마트24</p>
+
+    <div class="flex_end">
+      <img src="images/icon_yutube.png">
+      <img src="images/icon_insta.png">
+      <img src="images/icon_facebook.png">
+    </div>
+  </div>
+
+  <ul>
+    <li>대표이사: 김장욱 / 사업자등록번호: 105-86-92454</li>
+    <li>서울특별시 성동구 성수동 2가 281-4 푸조비즈타워 / 고객센터: 02-6916-1500 / Fax: 02-6916-1430</li>
+    <li>COPYRIGHT (C) EMART24.ALL RIGHT RESERVED</li>
+  </ul>
+
+</footer>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="joinus.js"></script>
+
+
+</body>
+
+</html>
